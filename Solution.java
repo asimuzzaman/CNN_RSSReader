@@ -1,7 +1,9 @@
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-
+/**
+	Solution class
+**/
 public class Solution {
     public static void main(String[] args) {
         Thread reader = new Thread(new Reader()); //RSS reader thread which reads data from file and displays result

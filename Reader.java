@@ -1,7 +1,9 @@
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
-
+/**
+	Reader class
+**/
 public class Reader implements Runnable {
     @Override
     public void run() {
