@@ -15,7 +15,7 @@ public class Writer implements Runnable {
 
             //reader section
             try {
-                FileWriter write = new FileWriter("a.rss");
+                FileWriter write = new FileWriter("d:\a.rss");
                 write.write(readRSSFeed("http://rss.cnn.com/rss/edition.rss"));
                 write.close();
             } catch (IOException e) {
