@@ -10,7 +10,7 @@ public class Reader implements Runnable {
         try {
             System.out.println("Fetching JPG image references from a.rss in thread# " + Thread.currentThread().getId());
 
-            showRSS("a.rss");
+            showRSS("d:\a.rss");
         } catch (Exception e) {
             System.out.println(e.toString());
         }
